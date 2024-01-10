@@ -1,2 +1,2 @@
-#사용기술
-React,Querydsl,Spring Boot
+# 사용기술
+- React,Querydsl,Spring Boot
