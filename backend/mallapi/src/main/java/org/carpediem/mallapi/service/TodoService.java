@@ -11,6 +11,12 @@ public interface TodoService {
     
     TodoDTO get(Long tno);
 
+    Long register(TodoDTO dto);
+
+    void modify(TodoDTO dto);
+
+    void remove(Long tno);
+
     // entity를 DTO로 변환
     default TodoDTO entityToDTO(Todo todo) {
 
