@@ -28,8 +28,6 @@ public class Todo {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long tno;
 
-
-
     @Column(length=500, nullable = false)
     private String title;
     private String content;
